@@ -1,11 +1,11 @@
-title: "Affiliates"
-email: wowthemesnet@gmail.com
-timezone: UTC
+title: "Hugging Face KREW"
+email: heuristicwave@gmail.com
+timezone: KST
 baseurl: 
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-author: Sal
+author: Admin
 paginate: 30
 disqus: 'demowebsite'
 locale: en_us
@@ -24,14 +24,13 @@ ganalytics: UA-113961478-1
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    avatar: 'assets/images/sal.png'
+  admin:
+    name: HFKR Team
+    display_name: Admin
+    avatar: 'assets/images/logo.png'
     email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    web: https://hugging-face-krew.github.io/
+    description: "Hugging Face KREW Team"
   john:
     name: John
     display_name: John

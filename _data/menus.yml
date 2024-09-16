@@ -10,8 +10,8 @@ topmenu:
 - title: Activities
   url: "activities/"
 
-- title: How to Contribute 🤗?
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
+- title: 🤗 어떻게 기여하나요?
+  url: https://hugging-face-krew.github.io/how-to-contribute/
   class: "ml-2 btn btn-dark text-white px-3"
   external: true
 
