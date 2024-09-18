@@ -1,6 +1,6 @@
 title: "Hugging Face KREW"
 email: heuristicwave@gmail.com
-timezone: KST
+timezone: Asia/Seoul
 baseurl: 
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
@@ -39,6 +39,13 @@ authors:
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: https://twitter.com/wowthemesnet
     description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
+  chaewon:
+    name: Song Chaewon
+    display_name: Chaewon 
+    avatar: 'assets/images/author_chaewon.png'
+    email: chaewon1019@ewhain.net 
+    web: https://github.com/chhaewxn/
+    description: "Hello! I'm Chaewon Song, a developer aspiring to become an Software engineer 🤗"
 
 # Social
 social:
