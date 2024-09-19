@@ -6,11 +6,11 @@ categories: [NLP, SQL, chatbot]
 image: assets/images/gradio_free.png
 ---
 
-안녕하세요🤗 첫 포스트는 NL2SQL 챗봇 개발 시리즈의 첫 번째 파트로, 이론적 배경과 데이터셋에 대해 다뤄보려합니다. NL2SQL의 기본 개념, 필요성, 그리고 데이터셋에 대해 자세히 알아보겠습니다. 
+안녕하세요🤗 첫 포스트는 NL2SQL 챗봇 개발 시리즈의 첫 번째 파트로, 이론적 배경과 데이터셋에 대해 다뤄보려합니다. NL2SQL의 기본 개념, 필요성, 그리고 데이터셋에 대해 자세히 알아보겠습니다.
 
 이번 포스트는 도서 'LLM을 활용한 실전 AI 애플리케이션 개발 (저자: 허정준)'을 참고하여 작성하였습니다.
 
-## 1. NL2SQL이란?
+## <a href="#nl2sql">1. NL2SQL이란?</a>
 
 NL2SQL(Natural Language to SQL)은 사용자의 자연어 질문을 SQL(Structured Query Language) 쿼리로 변환하는 기술입니다. 이 기술은 데이터베이스에서 정보를 추출하는 과정을 크게 단순화할 수 있습니다.
 
@@ -27,7 +27,7 @@ NL2SQL 기술은 다음과 같은 이점을 제공합니다:
 3. **오류 감소**: 복잡한 쿼리 작성 시 발생할 수 있는 인적 오류를 줄입니다.
 4. **실시간 데이터 분석**: 신속한 의사결정을 위한 즉각적인 데이터 접근을 가능케 합니다.
 
-## 2. NL2SQL 데이터셋
+## <a href="#dataset">2. NL2SQL 데이터셋</a>
 
 NL2SQL 모델을 훈련시키기 위해서는 적절한 데이터셋이 필요합니다. 여기서는 대표적인 데이터셋과 실습에 사용할 합성 데이터셋에 대해 알아보겠습니다.
 
@@ -38,26 +38,28 @@ NL2SQL 모델을 훈련시키기 위해서는 적절한 데이터셋이 필요�
 WikiSQL은 단일 테이블에 대한 간단한 쿼리를 생성하는 데 중점을 둔 데이터셋입니다.
 
 특징:
+
 - 하나의 테이블만 사용
 - SELECT 문에 단일 칼럼 사용
 - 조건절에 최대 3개의 조건만 사용
 
 예시:
+
 ```json
 {
-    "phase": 1,
-    "question": "How would you answer a second test question?",
-    "sql": {
-        "agg": 0,
-        "conds": {
-            "column_index": [2],
-            "condition": ["Some Entity"],
-            "operator_index": [0]
-        },
-        "human_readable": "SELECT Header1 FROM table WHERE Another Header = Some Entity",
-        "sel": 0
+  "phase": 1,
+  "question": "How would you answer a second test question?",
+  "sql": {
+    "agg": 0,
+    "conds": {
+      "column_index": [2],
+      "condition": ["Some Entity"],
+      "operator_index": [0]
     },
-    "table": "{\"caption\": \"L\", \"header\": [\"Header1\", \"Header 2\", \"Another Header\"], \"id\": \"1-10015132-9\", \"name\": \"table_10015132_11\", \"page_i...}"
+    "human_readable": "SELECT Header1 FROM table WHERE Another Header = Some Entity",
+    "sel": 0
+  },
+  "table": "{\"caption\": \"L\", \"header\": [\"Header1\", \"Header 2\", \"Another Header\"], \"id\": \"1-10015132-9\", \"name\": \"table_10015132_11\", \"page_i...}"
 }
 ```
 
@@ -66,6 +68,7 @@ WikiSQL은 단일 테이블에 대한 간단한 쿼리를 생성하는 데 중�
 Spider는 WikiSQL보다 더 복잡하고 현실적인 시나리오를 다룹니다.
 
 특징:
+
 - 다중 테이블 지원
 - 복잡한 SQL 구문 포함 (ORDER BY, GROUP BY, HAVING, JOIN 등)
 - 다양한 도메인의 데이터베이스 스키마 포함
@@ -78,22 +81,23 @@ Spider는 WikiSQL보다 더 복잡하고 현실적인 시나리오를 다룹니�
 
 #### 데이터셋 구조
 
-| 컬럼 | 설명 |
-|------|------|
-| db_id | 테이블이 포함된 데이터베이스의 ID |
-| context | SQL 생성에 사용할 테이블 정보 |
-| question | 데이터 요청사항 |
-| answer | 요청에 대한 SQL 정답 |
+| 컬럼     | 설명                              |
+| -------- | --------------------------------- |
+| db_id    | 테이블이 포함된 데이터베이스의 ID |
+| context  | SQL 생성에 사용할 테이블 정보     |
+| question | 데이터 요청사항                   |
+| answer   | 요청에 대한 SQL 정답              |
 
 ![데이터셋 예시](https://velog.velcdn.com/images/chhaewxn/post/b3e0d065-6971-48d4-bfb0-bc17f43c8c47/image.png)
 
-## 3. NL2SQL 모델 성능 평가
+## <a href="#evaluation">3. NL2SQL 모델 성능 평가</a>
 
 NL2SQL 모델의 성능을 평가하는 것은 매우 중요하지만, 동시에 복잡한 과제입니다. 여기서는 일반적인 평가 방식과 이번 프로젝트에서 사용할 GPT-4 기반 평가 방식에 대해 알아보겠습니다.
 
 ### 3.1 일반적인 평가 방식
 
 1. **Exact Match (EM)**: 생성된 SQL 쿼리와 정답 쿼리의 문자열이 정확히 일치하는지 확인합니다.
+
    - 장점: 구현이 간단함
    - 단점: 의미상으로 동일하지만 구문이 다른 쿼리를 틀렸다고 판단할 수 있음
 
@@ -151,14 +155,15 @@ gen_sql: {row['gen_sql']}"""
             f.write(json_string + "\n")
 ```
 
-## 결론
+## <a href="#result">결론</a>
 
 이번 포스트에서는 NL2SQL의 기본 개념, 주요 데이터셋, 그리고 성능 평가 방식에 대해 알아보았습니다. NL2SQL 기술은 데이터베이스 접근성을 크게 향상시키고, 데이터 기반 의사결정을 더욱 효율적으로 만들 수 있습니다.
 
 다음 포스트에서는 실제 Gradio를 사용하여 NL2SQL 챗봇을 구현하는 방법에 대해 자세히 알아보겠습니다. 궁금한 점이나 의견이 있다면 댓글로 남겨주세요!
 
-## 참고 자료
-- LLM을 활용한 실전 AI 애플리케이션 개발 (저자: 허정준) 
+## <a href="#references">참고 자료</a>
+
+- LLM을 활용한 실전 AI 애플리케이션 개발 (저자: 허정준)
 - [WikiSQL 데이터셋](https://huggingface.co/datasets/Salesforce/wikisql)
 - [Spider 데이터셋](https://yale-lily.github.io/spider)
 - [한국어 NL2SQL 데이터셋](https://huggingface.co/datasets/shangrilar/ko_text2sql)
