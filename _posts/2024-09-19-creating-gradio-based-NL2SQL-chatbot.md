@@ -10,7 +10,7 @@ image: assets/images/gradio_free.png
 
 이번 포스트는 도서 'LLM을 활용한 실전 AI 애플리케이션 개발 (저자: 허정준)'을 참고하여 작성하였습니다.
 
-## <a href="#nl2sql">1. NL2SQL이란?</a>
+## <a href="#nl2sql">1. NL2SQL이란?</a><a id="nl2sql"></a>
 
 NL2SQL(Natural Language to SQL)은 사용자의 자연어 질문을 SQL(Structured Query Language) 쿼리로 변환하는 기술입니다. 이 기술은 데이터베이스에서 정보를 추출하는 과정을 크게 단순화할 수 있습니다.
 
@@ -27,7 +27,7 @@ NL2SQL 기술은 다음과 같은 이점을 제공합니다:
 3. **오류 감소**: 복잡한 쿼리 작성 시 발생할 수 있는 인적 오류를 줄입니다.
 4. **실시간 데이터 분석**: 신속한 의사결정을 위한 즉각적인 데이터 접근을 가능케 합니다.
 
-## <a href="#dataset">2. NL2SQL 데이터셋</a>
+## <a href="#dataset">2. NL2SQL 데이터셋</a><a id="dataset"></a>
 
 NL2SQL 모델을 훈련시키기 위해서는 적절한 데이터셋이 필요합니다. 여기서는 대표적인 데이터셋과 실습에 사용할 합성 데이터셋에 대해 알아보겠습니다.
 
@@ -90,7 +90,7 @@ Spider는 WikiSQL보다 더 복잡하고 현실적인 시나리오를 다룹니�
 
 ![데이터셋 예시](https://velog.velcdn.com/images/chhaewxn/post/b3e0d065-6971-48d4-bfb0-bc17f43c8c47/image.png)
 
-## <a href="#evaluation">3. NL2SQL 모델 성능 평가</a>
+## <a href="#evaluation">3. NL2SQL 모델 성능 평가</a><a id="evaluation"></a>
 
 NL2SQL 모델의 성능을 평가하는 것은 매우 중요하지만, 동시에 복잡한 과제입니다. 여기서는 일반적인 평가 방식과 이번 프로젝트에서 사용할 GPT-4 기반 평가 방식에 대해 알아보겠습니다.
 
@@ -155,13 +155,13 @@ gen_sql: {row['gen_sql']}"""
             f.write(json_string + "\n")
 ```
 
-## <a href="#result">결론</a>
+## <a href="#result">결론</a><a id="result"></a>
 
 이번 포스트에서는 NL2SQL의 기본 개념, 주요 데이터셋, 그리고 성능 평가 방식에 대해 알아보았습니다. NL2SQL 기술은 데이터베이스 접근성을 크게 향상시키고, 데이터 기반 의사결정을 더욱 효율적으로 만들 수 있습니다.
 
 다음 포스트에서는 실제 Gradio를 사용하여 NL2SQL 챗봇을 구현하는 방법에 대해 자세히 알아보겠습니다. 궁금한 점이나 의견이 있다면 댓글로 남겨주세요!
 
-## <a href="#references">참고 자료</a>
+## <a href="#references">참고 자료</a><a id="references"></a>
 
 - LLM을 활용한 실전 AI 애플리케이션 개발 (저자: 허정준)
 - [WikiSQL 데이터셋](https://huggingface.co/datasets/Salesforce/wikisql)
