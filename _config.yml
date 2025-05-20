@@ -16,6 +16,8 @@ feed_update_frequency: 1
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
+  math_engine: katex
+  input: GFM
 sass:
   sass_dir: _sass
   style: :compressed
