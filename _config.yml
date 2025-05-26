@@ -21,6 +21,9 @@ sass:
   style: :compressed
 ganalytics: UA-113961478-1
 
+# # Enable displaying posts with future dates
+future: true
+
 # Authors
 authors:
   admin:
