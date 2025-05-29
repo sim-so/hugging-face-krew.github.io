@@ -96,8 +96,8 @@ OSSCA Hugging Face 프로젝트를 통해 다양한 기여 활동을 경험하�
 
 ### 더 많은 후기
 
-OSSCA 홈페이지에서 컨트리뷰터분들의 다양한 후기를 확인하실 수 있습니다.
-https://www.contribution.ac/1c236dcb-0b5f-8132-a06a-e1ace0e07c0c
+OSSCA 홈페이지에서 [후기 모음](https://www.contribution.ac/1c236dcb-0b5f-8132-a06a-e1ace0e07c0c
+)을 통해 컨트리뷰터분들의 다양한 후기를 확인하실 수 있습니다.
 
 
 ## **🤗 OSSCA 그 이후**
@@ -110,7 +110,3 @@ KREW 분들의 열정적인 활동은 OSSCA 이후에도 이어졌습니다. 덕
 
 
 **여기까지 OSSCA Hugging Face OSS 프로젝트에 참여하며 겪었던 저의 여정을 들려드렸습니다.** 저희 팀의 활동과 성과, 그리고 앞으로의 계획까지 **긴 글 읽어주셔서 감사합니다!** Hugging Face KREW의 다양한 활동에도 많은 관심과 응원 부탁드립니다. 
-
-
-
----
