@@ -2,7 +2,7 @@
 layout: post
 title: "Hugging Face와 함께한 13주: (2024) OSSCA 오픈소스 기여 스토리"
 author: minju
-categories: [HuggingFaceKrew]
+categories: [HuggingFaceKREW]
 image: assets/images/blog/posts/2025-05-27-2024-open-source-academy-recap/title.png
 ---
 
@@ -38,10 +38,10 @@ Masters 기간에는 멘티들이 각자의 관심사에 따라 다양한 기여
 2. **Code 기여 (Diffusers 라이브러리 Docstring 개선)**:
     - 영향력 있는 Hugging Face 공식 저장소인 `diffusers`에 코드 기여를 시도했습니다. 특히 초보자가 시작하기 좋은 `Good First Issue` 라벨이 붙은 이슈를 해결하며, Docstring을 개선하는 활동을 했습니다. 이는 코드 가독성과 유지보수성 향상에 기여할 수 있었습니다.
 
-3. **Community 기여 (Hugging Face Krew 활동)**:
+3. **Community 기여 (Hugging Face KREW 활동)**:
     - 프로젝트 팀원뿐만 아니라 외부 커뮤니티 멤버들과 함께하는 활동에 참여했습니다.
 
-    - **Hugging Face Krew Blog 제작:** Jekyll을 활용하여 초보 컨트리뷰터를 위한 가이드 및 커뮤니티 소통 창구 역할을 하는 블로그를 직접 만들고 운영했습니다. Hugging Face 생태계 활용 사례 등 양질의 글도 업로드했습니다. 
+    - **Hugging Face KREW Blog 제작:** Jekyll을 활용하여 초보 컨트리뷰터를 위한 가이드 및 커뮤니티 소통 창구 역할을 하는 블로그를 직접 만들고 운영했습니다. Hugging Face 생태계 활용 사례 등 양질의 글도 업로드했습니다. 
     또한 공식 문서가 빠르게 업데이트되면서 번역된 문서가 최신 버전을 반영하지 못하는 문제를 해결하기 위해, outdated된 문서나 아직 번역되지 않은 문서를 추적하는 리포트를 만들었습니다.
     
     - **초벌 번역기 업데이트:** 기존 번역 작업 효율을 높이는 도구인 '초벌 번역기'를 개선하여, 팀 내에서 통일된 용어 사용을 위해 관리하던 Glossary(용어 사전)를 번역 과정에 자동으로 반영하도록 기능을 추가했습니다. 이를 통해 번역의 일관성을 높이고 리뷰어들의 부담을 줄였습니다.
@@ -64,7 +64,7 @@ Masters 기간에는 멘티들이 각자의 관심사에 따라 다양한 기여
     - Hugging Face 생태계 활용에 도움이 되는 **AI Cookbook 및 Vision Course의 학습 콘텐츠를 번역하고 제작하는 활동**을 했습니다. 특히, **AI Cookbook 4건을 한글화하고 Vision Course 4건을 제작하는 구체적인 성과**를 달성했습니다.
 
 3. **커뮤니티 확장**:
-    - **처음 오픈소스 기여를 시작하는 분들도 Hugging Face 생태계에 쉽게 참여할 수 있도록 돕는 커뮤니티 기여 활동**을 진행했습니다. **Hugging Face OSS 팀 자체 페이지(Hugging Face Krew Blog)를 제작하고 운영**하며, 초보 컨트리뷰터를 위한 가이드 제공 등 **커뮤니티 소통 및 참여 확대를 위한 노력**을 기울였습니다.
+    - **처음 오픈소스 기여를 시작하는 분들도 Hugging Face 생태계에 쉽게 참여할 수 있도록 돕는 커뮤니티 기여 활동**을 진행했습니다. **Hugging Face OSS 팀 자체 페이지(Hugging Face KREW Blog)를 제작하고 운영**하며, 초보 컨트리뷰터를 위한 가이드 제공 등 **커뮤니티 소통 및 참여 확대를 위한 노력**을 기울였습니다.
 
 4. **LLM 활용 스터디**:
     - 주 1회 오프라인 스터디를 통해 LLM을 활용한 애플리케이션 개발 서적을 공부했습니다. 발표와 패널 토의 방식을 통해 Hugging Face 기여와 관련된 기술적 이해도를 높일 수 있었습니다.
@@ -80,16 +80,21 @@ Masters 기간에는 멘티들이 각자의 관심사에 따라 다양한 기여
 
 OSSCA Hugging Face 프로젝트를 통해 다양한 기여 활동을 경험하며 오픈소스 커뮤니티에 기여하는 즐거움을 알게 되었습니다. OSSCA 스태프 분들 및 멘토님들의 지원 덕분에 원하는 활동에 자유롭게 참여하며 의미있는 시간을 보낼 수 있었습니다. 특히 커뮤니티에 기여할 아이디어를 발전시키고, 오픈소스 기여에도 자신감을 가지고 참여하며 성장한 것을 실감했습니다.
 
+### 더 많은 후기
+
+https://www.contribution.ac/1c236dcb-0b5f-8132-a06a-e1ace0e07c0c
+
+
 ## **🤗 OSSCA 그 이후**
 
-Krew 분들의 열정적인 활동은 OSSCA 이후에도 이어졌습니다. 덕분에 저도 현재 Hugging Face Krew Blog 제작팀에 합류하여 커뮤니티에 기여를 다시 이어나가게 되었습니다.
+KREW 분들의 열정적인 활동은 OSSCA 이후에도 이어졌습니다. 덕분에 저도 현재 Hugging Face KREW Blog 제작팀에 합류하여 커뮤니티에 기여를 다시 이어나가게 되었습니다.
 
-저희 Hugging Face Krew는 **"누구나 머신러닝을 활용할 수 있도록 하여, 사회에 긍정적인 변화를 이끌자!"라는 비전** 아래 함께 활동하고 있습니다. 앞으로 Hugging Face Krew 블로그에는 **OSSCA 이후에도 꾸준히 활동하고 있는 Krew 멤버들의 다채로운 기여 활동과 그 경험 스토리가 담길 예정입니다.**
+저희 Hugging Face KREW는 **"누구나 머신러닝을 활용할 수 있도록 하여, 사회에 긍정적인 변화를 이끌자!"라는 비전** 아래 함께 활동하고 있습니다. 앞으로 Hugging Face KREW 블로그에는 **OSSCA 이후에도 꾸준히 활동하고 있는 KREW 멤버들의 다채로운 기여 활동과 그 경험 스토리가 담길 예정입니다.**
 
 ![image-3](../assets/images/blog/posts/2025-05-27-2024-open-source-academy-recap/final.png)
 
 
-**여기까지 OSSCA Hugging Face OSS 프로젝트에 참여하며 겪었던 저의 여정을 들려드렸습니다.** 저희 팀의 활동과 성과, 그리고 앞으로의 계획까지 **긴 글 읽어주셔서 감사합니다!** 앞으로 Hugging Face Krew의 다양한 활동에도 많은 관심과 응원 부탁드립니다. 
+**여기까지 OSSCA Hugging Face OSS 프로젝트에 참여하며 겪었던 저의 여정을 들려드렸습니다.** 저희 팀의 활동과 성과, 그리고 앞으로의 계획까지 **긴 글 읽어주셔서 감사합니다!** 앞으로 Hugging Face KREW의 다양한 활동에도 많은 관심과 응원 부탁드립니다. 
 
 
 
