@@ -8,7 +8,7 @@ image: assets/images/blog/posts/2025-05-27-2024-open-source-academy-recap/title.
 
 안녕하세요! 
 
-HuggingFaceKREW의 민주입니다. 
+Hugging Face KREW의 민주입니다. 
 
 작년 2024년에는 Hugging Face OSS 프로젝트에 참여하며 Open Source Contribution Academy (OSSCA)에서의 여정을 마무리하었습니다. 
 
@@ -21,6 +21,8 @@ HuggingFaceKREW의 민주입니다.
 저는 오픈소스를 통해 AI에 대한 최신 기술을 습득하고 배운 것을 공유하는 문화에 함께하고 싶어 이 프로젝트에 지원하게 되었습니다. 
 
 특히, Hugging Face OSS 프로젝트에 관심을 갖게 된 계기는 가짜연구소 컨퍼런스(7th PseudoCon) 행사에 참여했을 때였습니다. 당시 하림님의 Hugging Face 관련 핸즈온 세션에서 RAG 세션을 청강했는데, 그때 세션에서 활용된 AI Cookbook 형태의 학습 자료가 흥미롭게 느껴져 저 또한 Hugging Face 생태계에 기여하고 싶은 동기를 갖게 되었습니다.
+
+![image-3](../assets/images/blog/posts/2025-05-27-2024-open-source-academy-recap/7th_pesudocon.png)
 
 ## **🌱 Challenges 기간 (4주): 첫걸음 내딛기**
 
@@ -102,7 +104,9 @@ OSSCA 홈페이지에서 [후기 모음](https://www.contribution.ac/1c236dcb-0b
 
 ## **🤗 OSSCA 그 이후**
 
-KREW 분들의 열정적인 활동은 OSSCA 이후에도 이어졌습니다. 덕분에 저도 현재 Hugging Face KREW Blog 제작팀에 합류하여 커뮤니티에 기여를 이어나가게 되었습니다.
+OSSCA 이후에도 KREW 분들의 열정적인 활동은 가짜연구소 내 스터디에서 문서 번역, 기능 개선 및 코드 기여, 학습 콘텐츠 개발, 커뮤니티 활동 등 다양한 형태로 이어지고 있습니다. [Activities](https://hugging-face-krew.github.io/activities/) 페이지에서 더 자세한 내용을 확인할 수 있습니다. 
+
+이처럼 KREW 분들이 지속적으로 활동해주신 덕분에, 저 또한 Hugging Face KREW Blog 제작팀에 합류하여 커뮤니티에 기여를 이어나가고 있습니다.
 
 저희 Hugging Face KREW는 **"누구나 머신러닝을 활용할 수 있도록 하여, 사회에 긍정적인 변화를 이끌자!"라는 비전** 아래 함께 활동하고 있습니다. 앞으로 Hugging Face KREW 블로그에는 **OSSCA 이후에도 꾸준히 활동하고 있는 KREW 멤버들의 다채로운 기여 활동과 그 경험 스토리가 담길 예정입니다.**
 
