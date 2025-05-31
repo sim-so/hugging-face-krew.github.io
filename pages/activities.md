@@ -5,9 +5,9 @@ permalink: "/activities/"
 image: assets/images/logo.png
 ---
 
-## Hugging Face Krew 활동 🦸‍♀️🦸‍♂️
+## Hugging Face KREW 활동 🦸‍♀️🦸‍♂️
 
-Hugging Face Krew는 함께 배우고 기여하며 성장하는 커뮤니티입니다! 이곳에서는 Hugging Face 프로젝트에 기여할 수 있는 다양한 활동들이 진행되고 있습니다. 🌟 여기서 진행 중인 활동 및 진행 상황을 확인해보세요. 😊
+Hugging Face KREW는 함께 배우고 기여하며 성장하는 커뮤니티입니다! 이곳에서는 Hugging Face 프로젝트에 기여할 수 있는 다양한 활동들이 진행되고 있습니다. 🌟 여기서 진행 중인 활동 및 진행 상황을 확인해보세요. 😊
 
 ---
 ### 🌟 가짜연구소에서 스터디 참여하기
