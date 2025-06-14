@@ -10,15 +10,6 @@ image: assets/images/blog/posts/2025-06-14-text2sql-spider-ko-dataset/text2sql-t
 
 이번 포스트에서는 Spider 데이터셋을 한국어로 번역하면서 발견한 다양한 문제점들과 이를 해결하여 데이터셋 품질을 개선한 과정을 자세히 공유하려고 합니다.
 
-## 목차
-
-1. [프로젝트 배경과 목표](https://claude.ai/chat/6983c1c4-f0a0-40ca-bcf7-cad85e997caa#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%B0%B0%EA%B2%BD%EA%B3%BC-%EB%AA%A9%ED%91%9C)
-2. [데이터셋 구축 과정](https://claude.ai/chat/6983c1c4-f0a0-40ca-bcf7-cad85e997caa#%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%85%8B-%EA%B5%AC%EC%B6%95-%EA%B3%BC%EC%A0%95)
-3. [번역 과정에서 발견된 문제점들](https://claude.ai/chat/6983c1c4-f0a0-40ca-bcf7-cad85e997caa#%EB%B2%88%EC%97%AD-%EA%B3%BC%EC%A0%95%EC%97%90%EC%84%9C-%EB%B0%9C%EA%B2%AC%EB%90%9C-%EB%AC%B8%EC%A0%9C%EC%A0%90%EB%93%A4)
-4. [품질 개선 전략](https://claude.ai/chat/6983c1c4-f0a0-40ca-bcf7-cad85e997caa#%ED%92%88%EC%A7%88-%EA%B0%9C%EC%84%A0-%EC%A0%84%EB%9E%B5)
-5. [다른 프로젝트에 적용할 수 있는 인사이트](https://claude.ai/chat/6983c1c4-f0a0-40ca-bcf7-cad85e997caa#%EB%8B%A4%EB%A5%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90-%EC%A0%81%EC%9A%A9%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%9D%B8%EC%82%AC%EC%9D%B4%ED%8A%B8)
-6. [마무리](https://claude.ai/chat/6983c1c4-f0a0-40ca-bcf7-cad85e997caa#%EB%A7%88%EB%AC%B4%EB%A6%AC)
-
 ---
 
 ## 프로젝트 배경과 목표
