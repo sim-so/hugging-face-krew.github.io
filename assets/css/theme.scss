@@ -631,3 +631,10 @@ span.navigation:before {
     transition: all 0.3s;
     opacity:.8;
 }
+
+/* 좌측 상단로고 사이즈 조정 */
+.navbar-brand .mr-2 {
+  width: 70px;
+  height: 70px;
+  object-fit: contain; 
+}

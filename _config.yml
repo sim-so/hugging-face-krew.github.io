@@ -3,7 +3,7 @@ email: heuristicwave@gmail.com
 timezone: Asia/Seoul
 baseurl: 
 permalink: "/:title/"
-logo: 'assets/images/logo.png'
+logo: 'assets/images/hfkr_logo.png'
 favicon: 'assets/images/favicon.ico'
 author: Admin
 paginate: 30
