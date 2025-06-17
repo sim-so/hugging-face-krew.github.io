@@ -49,6 +49,13 @@ authors:
     email: jminj6@gmail.com 
     web: https://github.com/Jwaminju/
     description: "Hello, I'm minju! 🤗"
+  sohyun:
+    name: Sim Sohyun
+    display_name: sohyun 
+    avatar: 'assets/images/author/sohyun.png'
+    email: sohyun.sim27@gmail.com 
+    web: https://github.com/sim-so/
+    description: "Hello, I'm sohyun, a data analyst who explores the world of data with curiosity and passion. 🤗"
 
 # Social
 social:
